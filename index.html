@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Twitch Tracker Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="favicon.png" />
+        <script src="https://kit.fontawesome.com/e0babfcf03.js" crossorigin="anonymous"></script>
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        />
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <div id="main-container">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container d-flex justify-content-center">
+                    <i class="fab fa-twitch h1 text-white mr-3 pt-1" alt></i>
+                    <h1 class="text-white">Twitch<span class="text-info">Tracker</span></h1>
+                </div>
+            </div>
+            <h3 class="text-white text-center">Track streams from Twitch</h3>
+            <h4 class="text-white text-center pt-5">Checkout yourself!</h4>
+            <div id="links">
+                <div class="row justify-content-center pt-3">
+                        <h5 id="app-span" class="text-white text-center mr-2 mt-1">App:</h5>
+                        <a href="https://wizard.uek.krakow.pl/~s207045/">
+                        <h5 class="text-white">
+                            <i class="fab fa-twitch h5 text-white mr-2 pt-1" alt></i>Twitch<span class="text-info"
+                                >Tracker</span
+                            >
+                        </h5>
+                    </a>
+                </div>
+                <div class="row justify-content-center">
+                        <h5 id="github-span" class="text-white text-center mr-2">Our</h5>
+                        <a href="https://github.com/bartek9105/twitch-tracking-app">
+                        <h5 class="text-white">
+                            <i class="fab fa-github-square h5 text-white" alt></i> Github
+                        </h5>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div id="footer" class="text-center text-muted pt-4 pb-4">
+                <span id="footer-text">Powered by Twitch API 2020</span>
+            </div>
+        </footer>
+    </body>
+    <style>
+        .jumbotron {
+            background-color: #1a202c;
+        }
+        body {
+            background-color: #2d3748;
+        }
+        #main-container {
+            position: relative;
+        }
+        #footer {
+            position: absolute;
+            background-color: #1a202c;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+        a {
+            text-decoration: none !important;
+        }
+    </style>
+</html>
