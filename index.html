@@ -37,12 +37,11 @@
                     <h1 class="text-white">Twitch<span class="text-info">Tracker</span></h1>
                 </div>
             </div>
-            <h3 class="text-white text-center">Track streams from Twitch</h3>
-            <h4 class="text-white text-center pt-5">Checkout yourself!</h4>
+            <h3 class="text-white text-center mr-2 ml-2">Track streams from Twitch</h3>
             <div id="links">
-                <div class="row justify-content-center pt-3">
-                        <h5 id="app-span" class="text-white text-center mr-2 mt-1">App:</h5>
-                        <a href="https://wizard.uek.krakow.pl/~s207045/">
+                <h4 class="text-white text-center pt-5">Checkout yourself!</h4>
+                <div class="row justify-content-center pt-3 m-auto">
+                    <a href="https://wizard.uek.krakow.pl/~s207045/">
                         <h5 class="text-white">
                             <i class="fab fa-twitch h5 text-white mr-2 pt-1" alt></i>Twitch<span class="text-info"
                                 >Tracker</span
@@ -50,21 +49,73 @@
                         </h5>
                     </a>
                 </div>
-                <div class="row justify-content-center">
-                        <h5 id="github-span" class="text-white text-center mr-2">Our</h5>
-                        <a href="https://github.com/bartek9105/twitch-tracking-app">
-                        <h5 class="text-white">
-                            <i class="fab fa-github-square h5 text-white" alt></i> Github
-                        </h5>
+                <div class="row justify-content-center m-auto">
+                    <a href="https://github.com/bartek9105/twitch-tracking-app">
+                        <h5 class="text-white"><i class="fab fa-github-square h5 text-white" alt></i> Github</h5>
                     </a>
                 </div>
             </div>
-        </div>
-        <footer>
-            <div id="footer" class="text-center text-muted pt-4 pb-4">
-                <span id="footer-text">Powered by Twitch API 2020</span>
+            <div id="explore">
+                <h4 id="explore-header" class="text-info text-center pt-5">Explore</h4>
+                <p id="explore-para" class="text-white text-center col-lg-4 m-auto pb-5 pb-lg-0">
+                    Explore the most popular streams, games and clips from Twitch
+                </p>
+                <div class="row row-cols-2 align-items-center justify-content-center m-auto">
+                    <img class="img-fluid m-auto" src="/img/explore-1.png" alt="top-games" />
+                    
+                </div>
+                <h5 class="text-white-50 text-center m-auto m-lg-0 pb-5">The most popular games</h5>
+                <div class="row align-items-center justify-content-lg-end justify-content-center m-auto">
+                    <img class="img-fluid m-auto" src="/img/explore-2.png" alt="top-streams" />
+                    
+                </div>
+                <h5 class="text-white-50 text-center pb-5">The most popular streams</h5>
+                <div class="row align-items-center justify-content-center m-auto">
+                    <img class="img-fluid m-auto" src="/img/explore-3.png" alt="top-clips" />
+                    
+                </div>
+                <h5 class="text-white-50 text-center">The most popular clips</h5>
             </div>
-        </footer>
+            <div id="search">
+                <h4 id="search-header" class="text-info text-center pt-5">Search</h4>
+                <p id="search-para" class="text-white text-center col-lg-4 m-auto">Search streams and games</p>
+                <div class="row justify-content-center pt-5 m-auto">
+                    <img class="img-fluid m-auto" src="/img/search.png" alt="search" />
+                </div>
+            </div>
+            <div id="favs">
+                <h4 id="favs-header" class="text-info text-center pt-5">Track favourites</h4>
+                <p id="favs-para" class="text-white text-center col-lg-4 m-auto">
+                    Add to favourites and track them on mobile too!
+                </p>
+                <div class="row align-items-center justify-content-center m-auto">
+                    <img class="img-fluid" src="/img/favs-1.png" alt="favourite-games" />
+                </div>
+                <h5 class="text-white-50 pb-5 text-center">Your favourite streams</h5>
+                <div class="row align-items-center justify-content-center m-auto">
+                    <img class="img-fluid ml-lg-5 mr-lg-5" src="/img/favs-2.png" alt="favourite-streams" />
+                </div>
+                <h5 class="text-white-50 pb-5 text-center">Your favourite games</h5>
+                <div class="row align-items-center justify-content-center m-auto">
+                    <img class="img-fluid" src="/img/mobile-fav.png" alt="mobile-clips" />
+                </div>
+                <h5 class="text-white-50 text-center">Even on mobile!</h5>
+            </div>
+            <div id="customize-profile">
+                <h4 id="profile-header" class="text-info text-center pt-5">Customize your profile</h4>
+                <p id="profile-para" class="text-white text-center col-lg-4 m-auto pb-5">
+                    Express yourself through avatar
+                </p>
+                <div class="row justify-content-center m-auto">
+                    <img class="img-fluid pb-5" src="/img/profile.png" alt="profile" />
+                </div>
+            </div>
+            <footer>
+                <div id="footer" class="text-center text-muted pt-4 pb-4">
+                    <span id="footer-text">Powered by Twitch API 2020</span>
+                </div>
+            </footer>
+        </div>
     </body>
     <style>
         .jumbotron {
@@ -77,7 +128,6 @@
             position: relative;
         }
         #footer {
-            position: absolute;
             background-color: #1a202c;
             left: 0;
             right: 0;
